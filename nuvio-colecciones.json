@@ -1,0 +1,537 @@
+[
+  {
+    "id": "maik-discover",
+    "title": "🔭 Discover",
+    "pinToTop": false,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "folders": [
+      {
+        "id": "maik-trending-movies",
+        "title": "Trending Movies",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/trending-movies.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {}
+          }
+        ]
+      },
+      {
+        "id": "maik-trending-shows",
+        "title": "Trending Shows",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/trending-shows.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {}
+          }
+        ]
+      },
+      {
+        "id": "maik-latest-movies",
+        "title": "Latest Movies",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/latest-movies.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "year": 2026
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-latest-shows",
+        "title": "Latest Shows",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/latest-shows.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "year": 2026
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maik-streaming",
+    "title": "🎬 Streaming",
+    "pinToTop": false,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "folders": [
+      {
+        "id": "maik-netflix",
+        "title": "Netflix",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/netflix.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8",
+              "watchRegion": "ES"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8",
+              "watchRegion": "ES"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-prime-video",
+        "title": "prime video",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/prime-video.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "119",
+              "watchRegion": "ES"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "119",
+              "watchRegion": "ES"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-disney-plus",
+        "title": "Disney+",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/disney-plus.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "ES"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "ES"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-apple-tv",
+        "title": "Apple TV",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/apple-tv.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "ES"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "ES"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-hbo-max",
+        "title": "HBO Max",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/hbo-max.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899",
+              "watchRegion": "ES"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899",
+              "watchRegion": "ES"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-skyshowtime",
+        "title": "SkyShowtime",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/skyshowtime.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "ES"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "ES"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maik-genres",
+    "title": "🎭 Genres",
+    "pinToTop": false,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "folders": [
+      {
+        "id": "maik-crime",
+        "title": "Crime",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/crime.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "80"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "80"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-drama",
+        "title": "Drama",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/drama.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "18"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "18"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-thriller",
+        "title": "Thriller",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/thriller.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "53"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "9648"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-horror",
+        "title": "Horror",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/horror.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "27"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-action",
+        "title": "Action",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/action.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "28"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "10759"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-comedy",
+        "title": "Comedy",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/comedy.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "35"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "35"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maik-seasonal",
+    "title": "Seasonal Specials",
+    "pinToTop": false,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "folders": [
+      {
+        "id": "maik-christmas",
+        "title": "Christmas",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/christmas.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withKeywords": "207317"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withKeywords": "207317"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-valentines-day",
+        "title": "Valentine'S Day",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/valentines-day.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withKeywords": "160404"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-halloween",
+        "title": "Halloween",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/halloween.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withKeywords": "3335"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withKeywords": "3335"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
