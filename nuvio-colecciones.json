@@ -2,7 +2,7 @@
   {
     "id": "maik-discover",
     "title": "🔭 Discover",
-    "pinToTop": false,
+    "pinToTop": true,
     "viewMode": "TABBED_GRID",
     "showAllTab": true,
     "folders": [
@@ -83,7 +83,7 @@
   {
     "id": "maik-streaming",
     "title": "🎬 Streaming",
-    "pinToTop": false,
+    "pinToTop": true,
     "viewMode": "TABBED_GRID",
     "showAllTab": true,
     "folders": [
@@ -278,7 +278,7 @@
   {
     "id": "maik-genres",
     "title": "🎭 Genres",
-    "pinToTop": false,
+    "pinToTop": true,
     "viewMode": "TABBED_GRID",
     "showAllTab": true,
     "folders": [
@@ -451,7 +451,7 @@
   {
     "id": "maik-seasonal",
     "title": "Seasonal Specials",
-    "pinToTop": false,
+    "pinToTop": true,
     "viewMode": "TABBED_GRID",
     "showAllTab": true,
     "folders": [
