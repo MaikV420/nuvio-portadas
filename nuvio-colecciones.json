@@ -334,6 +334,97 @@
             }
           }
         ]
+      },
+      {
+        "id": "maik-national-geographic",
+        "title": "National Geographic",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/national-geographic.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withCompanies": "7521"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "43"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-pluto-tv",
+        "title": "Pluto TV",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/pluto-tv.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "300",
+              "watchRegion": "ES"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "300",
+              "watchRegion": "ES"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-filmin",
+        "title": "Filmin",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/filmin.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "63",
+              "watchRegion": "ES"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "63",
+              "watchRegion": "ES"
+            }
+          }
+        ]
       }
     ]
   },
