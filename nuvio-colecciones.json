@@ -272,6 +272,68 @@
             }
           }
         ]
+      },
+      {
+        "id": "maik-crunchyroll",
+        "title": "Crunchyroll",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/crunchyroll.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "283",
+              "watchRegion": "ES"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "283",
+              "watchRegion": "ES"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maik-hulu",
+        "title": "Hulu",
+        "coverImageUrl": "https://raw.githubusercontent.com/MaikV420/nuvio-portadas/main/hulu.jpg",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Movies",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US"
+            }
+          }
+        ]
       }
     ]
   },
